@@ -1,0 +1,118 @@
+body {
+	background: linear-gradient(45deg, #FC466B, #3F5EFB);
+	color:  #001F43;
+	text-align: center;
+	line-height: !important;
+	border: 20px black;
+	font-family: "Montserrat Medium", sans-serif;
+}
+
+h1{
+	line-height: 20px;
+	font-weight: bolder;
+}
+
+
+h2 {
+	text-align: justify-all;
+}
+
+
+a {
+	text-decoration: none;
+	color: #001F43;
+}
+a:hover {
+    color: #e1ad01;
+}
+
+b{
+	font-weight: bold;
+}
+
+
+h2, h3 {
+	font-family: "Montserrat SemiBold";
+	font-size: 20px ;
+	font-weight: 500;
+}
+
+p {
+	font-size: 14px;
+
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+
+}
+
+
+/* custoim design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+/* faire un design responsive*/
+
+@media (max-width:  960px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width:  720px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width:  540px){
+	.container{
+		width: 340px;
+	}
+}
+
+.card-white {
+	background-color: rgba(255,255,255,0.3);
+	padding: 40px;
+	border-radius: 12px;
+	margin: 20px 0;
+	text-align: center;
+	backdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+	transition: all 0.5s ease-in-out;
+}
+.card-white:hover{
+	margin-top: 40px;
+	margin-bottom: 40px ;
+	transform: scale(1.15);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	margin: 20px ;
+	padding: 30px;
+}
+
+.list-inline i {
+	font-size: 50px;
+
+}
+
+.list-inline i hover{
+	color: #001F43;
+}
+
+#footer .list-inline{
+	margin-bottom: 20px;
+}
